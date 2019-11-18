@@ -1,0 +1,39 @@
+.list-time {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: #e7fa2d;
+  font-size: 70px;
+  margin-top: 50px;
+  font-weight: bold;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  color: black;
+}
+.list-time:hover {
+  cursor: pointer;
+}
+.hours {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.minutes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.seconds {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.letter {
+  font-size: 20px;
+  opacity: 0.6;
+  color: black;
+}
